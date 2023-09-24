@@ -1,0 +1,128 @@
+    * {
+        margin: 0px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    #encabezado {
+        background: #E8CBC0;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #636FA4, #E8CBC0);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        height: 700px;
+    }
+    
+    h1 {
+        color: white;
+        font-weight: lighter;
+        font-family: 'Fuggles', cursive;
+        font-size: 250px;
+        text-align: center;
+        padding-top: 200px;
+        margin-bottom: -25px
+    }
+    
+    h3 {
+        color: white;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .enlace {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        float: left;
+        margin: 25px;
+    }
+    
+    .enlace:hover {
+        color: #e6d0b9;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    p {
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    #navegador {
+        background-color: #251b3d;
+        height: 80px;
+        padding: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #principal {
+        background-color: #dddddd;
+        height: 1500 px;
+        padding: 20px;
+    }
+    
+    .titulos-principal {
+        margin: 35px;
+    }
+    
+    #pie {
+        background-color: #e6d0b9;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    img {
+        width: 300px;
+        height: auto;
+        filter: drop-shadow(0 0 30px #251b3d);
+        margin-left: 200px;
+    }
+    
+    .icono {
+        width: 64px;
+        height: 64px;
+        margin: 65px;
+    }
+    
+    .icono:hover {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .secundario {
+        display: flex;
+    }
+    
+    li {
+        margin: 10px;
+    }
+    
+    .datos-personales {
+        font-size: 20px;
+        margin-left: 200px;
+        font-weight: bold;
+    }
+    
+    button {
+        background-color: #e6d0b9;
+        border: none;
+        width: 64px;
+        height: 64px;
+        margin: 100px 50px 25px 50px;
+    }
+    
+    button:hover {
+        cursor: pointer;
+    }
+    
+    #demo,
+    #demo1,
+    #demo2,
+    #demo3 {
+        float: left;
+        margin-top: 100px;
+    }
